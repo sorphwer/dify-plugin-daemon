@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769502639606,
-  "repoUrl": "https://github.com/langgenius/dify-plugin-daemon",
+  "lastUpdate": 1770006806056,
+  "repoUrl": "https://github.com/sorphwer/dify-plugin-daemon",
   "entries": {
     "Go Benchmark": [
       {
@@ -11376,6 +11376,54 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "allocs/op",
             "extra": "977390448 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "admin@srmxy.cn",
+            "name": "Yeuoly",
+            "username": "Yeuoly"
+          },
+          "committer": {
+            "email": "admin@srmxy.cn",
+            "name": "Yeuoly",
+            "username": "Yeuoly"
+          },
+          "distinct": true,
+          "id": "225742aa94a738c7c2ef41f11b843ec00b984480",
+          "message": "optimize: load balancing",
+          "timestamp": "2025-04-22T20:40:48+08:00",
+          "tree_id": "1702bb1abb3624acad69d8cbf1ffd6422bf49d2c",
+          "url": "https://github.com/sorphwer/dify-plugin-daemon/commit/225742aa94a738c7c2ef41f11b843ec00b984480"
+        },
+        "date": 1770006805614,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkStream",
+            "value": 37.14,
+            "unit": "ns/op\t      15 B/op\t       0 allocs/op",
+            "extra": "956530161 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkStream - ns/op",
+            "value": 37.14,
+            "unit": "ns/op",
+            "extra": "956530161 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkStream - B/op",
+            "value": 15,
+            "unit": "B/op",
+            "extra": "956530161 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkStream - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "956530161 times\n4 procs"
           }
         ]
       }
